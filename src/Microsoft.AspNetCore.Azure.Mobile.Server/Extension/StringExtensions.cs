@@ -8,7 +8,7 @@ using System.Text;
 namespace Microsoft.AspNetCore.Azure.Mobile.Server.Extension
 {
     [EditorBrowsable(EditorBrowsableState.Never)]
-    internal static class StringExtensions
+    public static class StringExtensions
     {
         /// <summary>
         /// Formats the input string to be user visible using <see cref="CultureInfo.CurrentCulture"/>.
