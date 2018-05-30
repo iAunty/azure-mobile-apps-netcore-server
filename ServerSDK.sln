@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "e2etest", "e2etest", "{4738AA58-47B9-4558-9236-93C673DD6E22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{09B713ED-35F0-4838-B8B4-A1D4DFAFAF86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5F13BB62-FDCE-4B2A-86C1-102DE114CCAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8369EE25-D396-4B2F-9828-CA962387C492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZumoE2EServerApp", "e2etest\ZumoE2EServerApp\ZumoE2EServerApp.csproj", "{A8E8A4F3-3F9B-4B9E-A22F-72C1F673A366}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8E8A4F3-3F9B-4B9E-A22F-72C1F673A366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E8A4F3-3F9B-4B9E-A22F-72C1F673A366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E8A4F3-3F9B-4B9E-A22F-72C1F673A366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E8A4F3-3F9B-4B9E-A22F-72C1F673A366}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8E8A4F3-3F9B-4B9E-A22F-72C1F673A366} = {4738AA58-47B9-4558-9236-93C673DD6E22}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5095A7E4-EF75-45B7-8410-037807589DEA}
+	EndGlobalSection
+EndGlobal

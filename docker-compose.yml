@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  zumoe2eserverapp:
+    image: ${DOCKER_REGISTRY}zumoe2eserverapp
+    build:
+      context: .
+      dockerfile: e2etest\ZumoE2EServerApp\Dockerfile
