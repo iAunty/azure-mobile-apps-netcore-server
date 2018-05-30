@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.AspNetCore.Azure.Mobile.Server.Helper;
 
 namespace Microsoft.AspNetCore.Azure.Mobile.Server.Cache
 {
